@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$797/BmMOrVek32mB1t3bOO2A9y01H1mj7vGT8pv7xpcOuL6ccTD92",
+      "id": 1,
+      "role_id": 1,
+      "name": "John",
+      "img": "uploads\\1685972689844.jpg"
+    },
+    {
+      "email": "jane@gmail.com",
+      "password": "$2a$10$X3PL4uCAWt77O4cAxkeylukfy.9xlqWd15HfSRCgqGNJvHJBLoabq",
+      "id": 2,
+      "role_id": 2,
+      "name": "Jane",
+      "img": "uploads\\1685972902283.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "cooler",
+      "categoryId": 2,
+      "subCategoryId": 3,
+      "brandId": 3,
+      "price": "2000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>best cooler</p>",
+      "properties": [
+        {
+          "id": 1699021238139,
+          "name": "price is fixed",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021304638.jpg"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "name": "freezer j1",
+      "categoryId": 2,
+      "subCategoryId": 3,
+      "brandId": 3,
+      "price": "2341",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>coolest freezer</p>",
+      "properties": [
+        {
+          "id": 1699021364637,
+          "name": "discounts",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021396099.jpg"
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "xiaomi 10",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 4,
+      "price": "5000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>amoled display</p>",
+      "properties": [
+        {
+          "id": 1699021594553,
+          "name": "fast cpu",
+          "properties": []
+        },
+        {
+          "id": 1699021600769,
+          "name": "16gm ram",
+          "properties": []
+        },
+        {
+          "id": 1699021607119,
+          "name": "",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794651.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794652.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794653.jpg"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": "toaster",
+      "categoryId": 2,
+      "subCategoryId": 3,
+      "brandId": 3,
+      "price": "500",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>toaster</p>",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021968420.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021968422.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021968423.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021968424.jpg"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": "redmi 12",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 4,
+      "price": "3500",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>nice phone</p>",
+      "properties": [
+        {
+          "id": 1699022087421,
+          "name": "128gb ",
+          "properties": []
+        },
+        {
+          "id": 1699022098137,
+          "name": "32gm ram",
+          "properties": []
+        },
+        {
+          "id": 1699022104318,
+          "name": "",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699022125835.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699022125836.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699022125837.jpg"
+        }
+      ],
+      "id": 15
+    },
+    {
+      "name": "nokia",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 2,
+      "price": "500",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>strong phone</p>",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443049.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443050.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443051.jpg"
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cмартфоны и планшеты",
+      "img": "uploads/9089064763422.jpg"
+    },
+    {
+      "name": "Бытовая техника",
+      "img": "uploads/efrgfhjk.jpg",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "img": "uploads\\1699700377899.jpeg"
+    }
+  ],
+  "subCategories": [
+    {
+      "name": "Smartphones",
+      "categoryId": 1,
+      "brands": [
+        1
+      ],
+      "img": "uploads/Без названия.jpeg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "кнопочные",
+      "img": "uploads\\1699699184691.jpeg"
+    },
+    {
+      "name": "home stuff",
+      "categoryId": 2,
+      "brands": [
+        3
+      ],
+      "img": "uploads/rustic-home-decorваввыф.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "salom",
+      "img": "uploads\\1699735409804.png"
+    }
+  ],
+  "brands": [
+    {
+      "id": 2,
+      "name": "Nokia",
+      "img": "uploads/imagesnokia.jpeg",
+      "price": "$200"
+    },
+    {
+      "id": 3,
+      "name": "Samsung",
+      "img": "uploads\\1699696274848.webp"
+    },
+    {
+      "name": "Xiaomi",
+      "img": "uploads/imagesxioami.jpeg",
+      "id": 4,
+      "price": "$400"
+    },
+    {
+      "id": 5,
+      "name": "Apple",
+      "img": "uploads/Apple.jpeg",
+      "price": "$1200"
+    },
+    {
+      "name": "Apple",
+      "img": "uploads\\1699696235518.jpg",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "name": "cooler",
+      "categoryId": 2,
+      "subCategoryId": 3,
+      "brandId": 3,
+      "price": "2000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>best cooler</p>",
+      "properties": [
+        {
+          "id": 1699021238139,
+          "name": "price is fixed",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021304638.jpg"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "name": "nokia",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 2,
+      "price": "500",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>strong phone</p>",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443049.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443050.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443051.jpg"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "xiaomi 10",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 4,
+      "price": "5000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>amoled display</p>",
+      "properties": [
+        {
+          "id": 1699021594553,
+          "name": "fast cpu",
+          "properties": []
+        },
+        {
+          "id": 1699021600769,
+          "name": "16gm ram",
+          "properties": []
+        },
+        {
+          "id": 1699021607119,
+          "name": "",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794651.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794652.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021794653.jpg"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": "freezer j1",
+      "categoryId": 2,
+      "subCategoryId": 3,
+      "brandId": 3,
+      "price": "2341",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>coolest freezer</p>",
+      "properties": [
+        {
+          "id": 1699021364637,
+          "name": "discounts",
+          "properties": []
+        }
+      ],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1699021396099.jpg"
+        }
+      ],
+      "id": 12
+    }
+  ]
+}
